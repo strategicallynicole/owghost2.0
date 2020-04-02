@@ -1,0 +1,309 @@
+img.logo {
+    padding-left: 2em;
+    max-width: 85%;
+}
+
+.regular-case {
+    text-transform: none;
+}
+
+.align-left {
+    text-align: left !important;
+}
+warrior-princess-svg {
+    position: relative;
+}
+.xxl {
+    font-size: 1rem;
+    text-transform: none !important;
+}
+
+.box-minimal-modern {
+    min-height: 400px !important;
+}
+
+.porkchop {
+    margin: 0 auto;
+    max-width: 10%;
+}
+
+.highlight {
+    color: $primary !important;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: $yellow !important;
+    font-weight: 600;
+
+}
+.light {
+    color: $gray-300 !important;
+}
+
+.dark-gradient {
+  background-image: linear-gradient(299deg, $secondary 94%, $primary 6%) !important;
+  color: linear-gradient(299deg, $secondary 94%, $primary 6%) !important;
+
+}
+
+.gimme-some-room {
+    padding-top: 40px;
+}
+.card-corporate .card-arrow {
+    background: $pink !important;
+
+}
+
+
+.box-minimal-modern .box-minimal-icon:after {
+ background: linear-gradient(-45deg, $purple1 15%, $darkpink 45%, $pink) !important;
+}
+
+
+.backgroundwhite {
+    background-color: #fff !important;
+}
+.rd-navbar-fixed .rd-navbar-brand img {
+    max-width: 300px !important;
+}
+.house-gradient {
+ background: linear-gradient(-45deg, $gradient1 15%, $gradient2 45%, $gradient3) !important;
+ }
+
+ .fifteen-pointer {
+     font-size: 15pt !important;
+ }
+
+body {
+    overflow-x: hidden !important;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+.whitish {
+    color: #fff !important;
+}
+
+.button {
+    font-size: 14px;
+}
+.typed-text {
+    color: $pink !important;
+}
+
+.tall {
+    height: 100vh !important;
+}
+.alilspace {
+    padding-top:20px;
+}
+
+.layer-shrink {
+    left: 60% !important;
+    top: -60% !important;
+        position: relative;
+
+}
+
+.purpleoak-section2 {
+    left: 30% !important;
+    top: 20% !important;
+    max-width: 100px;
+    transform: rotate(-40deg);
+    z-index: -1;
+    opacity: 0.5;
+    position: relative;
+        position: relative;
+
+}
+
+.zero-auto {
+    margin: 0 auto !important;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.gold-maple-small {
+    left: 0% !important;
+    top: 50% !important;
+    max-width: 100px;
+    transform: rotate(50deg);
+    z-index: -1;
+    opacity: 0.5;
+        position: relative;
+
+}
+.gold-maple-small-section2 {
+    left: 5% !important;
+    top: 60% !important;
+    max-width: 100px;
+    transform: rotate(50deg);
+    z-index: -1;
+    opacity: 0.5;
+        position: relative;
+
+}
+
+.pink-leaf-small {
+    left: 8% !important;
+    top: 10% !important;
+    opacity: 0.3;
+    z-index: -1;
+        position: relative;
+
+}
+
+.pink-leaf-small-section2 {
+    left: 8% !important;
+    top: 10% !important;
+    opacity: 0.3;
+    z-index: -1;
+        position: relative;
+
+}
+
+.pink-leaf-regular {
+    left: 100% !important;
+    top: 100% !important;
+    opacity: 0.3;
+    z-index: -1;
+        transform: rotate(-50deg);
+    position: relative;
+
+
+}
+
+.pink-leaf-regular-section2 {
+    left: 100% !important;
+    top: 100% !important;
+    opacity: 0.3;
+    z-index: -1;
+    transform: rotate(-50deg);
+    position: relative;
+
+
+}
+
+.headparallax {
+    width: 100%;
+}
+ .purple-leaf-regular {
+    left: 0% !important;
+    top: 1% !important;
+    opacity: 0.5;
+     transform: rotate(10deg);
+    position: relative;
+
+    z-index: -1;
+
+
+}
+.house-thin-leaf-section2 {
+    left: 15% !important;
+    top: 70% !important;
+    opacity: 0.5;
+    transform: rotate(10deg);
+    position: relative;
+
+    z-index: -1;
+}
+
+.orangemaple-section2 {
+    left: 79% !important;
+    top: 61% !important;
+    opacity: 0.5;
+    transform: rotate(-10deg);
+    position: relative;
+
+    z-index: -1;
+}
+
+.purple-leaf-regular-section2 {
+      left: 70% !important;
+      top: 30% !important;
+      opacity: 0.5;
+      transform: rotate(24deg);
+    position: relative;
+
+      z-index: -1;
+}
+.purple-oak-small {
+    left: 90% !important;
+    top: 0% !important;
+    opacity: 0.5;
+    z-index: -1;
+        transform: rotate(-20deg);
+
+    position: relative;
+
+
+}
+.red-leaf-big {
+    left: 44% !important;
+    top: 12% !important;
+    opacity: 0.3;
+    z-index: -1;
+    position: relative;
+
+
+}
+
+.small-parallax {
+    width: 100px;
+}
+
+.front-and-center {
+    z-index: 99;
+    position: relative;
+}
+
+.bg-gradient-1 .thumbnail-classic-secondary .thumbnail-classic-icon::after, .bg-gradient-2 .thumbnail-classic-secondary .thumbnail-classic-icon::after, .bg-image .thumbnail-classic-secondary .thumbnail-classic-icon::after, .bg-additional-image .bg-additional-item .thumbnail-classic-secondary .thumbnail-classic-icon::after, .bg-secondary-2 .thumbnail-classic-secondary .thumbnail-classic-icon::after, .bg-gray-darker .thumbnail-classic-secondary .thumbnail-classic-icon::after, .bg-additional-gray-darker .bg-additional-item .thumbnail-classic-secondary .thumbnail-classic-icon::after {
+    border-color: $gradient2 !important;
+}
+
+.thumbnail-classic-icon:before {
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    opacity: 0;
+    background: linear-gradient(-45deg, $gradient1 15%, $gradient2 45%, $gradient3) !important;
+}
+
+.constraint-image {
+    width: 50% !important;
+}
+
+
+.parallax-scene-image {
+    @include media-breakpoint-up(lg) {
+        position: relative !important;
+    }
+     @include media-breakpoint-up(sm) {
+         position: relative !important;
+     }
+
+      @include media-breakpoint-up(md) {
+          position: relative !important;
+      }
+}
+
+.bg-gray-darker .rd-navbar-fixed .rd-navbar-panel:before,
+.bg-additional-gray-darker .bg-additional-item .rd-navbar-fixed .rd-navbar-panel:before,
+.bg-gradient-2 .rd-navbar-fixed .rd-navbar-panel:before,
+.bg-gradient-1 .rd-navbar-fixed .rd-navbar-panel:before,
+.bg-image .rd-navbar-fixed .rd-navbar-panel:before,
+.bg-additional-image .bg-additional-item .rd-navbar-fixed .rd-navbar-panel:before,
+.bg-secondary-2 .rd-navbar-fixed .rd-navbar-panel:before,
+.bg-gradient .rd-navbar-fixed .rd-navbar-panel:before,
+.bg-gradient-1 .rd-navbar-fixed .rd-navbar-panel:before,
+.bg-gradient-2 .rd-navbar-fixed .rd-navbar-panel:before,
+.bg-gradient-3 .rd-navbar-fixed .rd-navbar-panel:before {
+
+
+background: linear-gradient(299deg, #120a22 94%, #2e1a47 6%) !important;
+}
