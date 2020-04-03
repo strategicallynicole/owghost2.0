@@ -23,6 +23,7 @@
 		plugins = {
 			bootstrapDateTimePicker: $('[data-time-picker]'),
 			bootstrapModal: $('.modal'),
+			particlesJS.load('particles-js', 'particles.json');
 			bootstrapModalNotification: $('.notification'),
 			bootstrapTabs: $('.tabs-custom'),
 			bootstrapTooltip: $('[data-toggle="tooltip"]'),
