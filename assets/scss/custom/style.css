@@ -4466,7 +4466,7 @@ h6.box-info-title,
           user-select: none;
   -webkit-transition: .25s all ease;
   transition: .25s all ease;
-  white-space: pre-wrap;
+  /* white-space: pre-wrap; */
 }
 
 .button:focus, .button:active, .button:active:focus {
@@ -19319,7 +19319,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
-    white-space: pre-wrap;
+   /* white-space: pre-wrap; */
     -webkit-transition: initial;
     transition: initial;
   }
