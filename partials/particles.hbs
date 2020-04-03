@@ -22,7 +22,7 @@
           "nb_sides": 5
         },
         "image": {
-          "src": "{{asset "images/elements/yellopink.svg"}}",
+          "src": "{{asset "images/elements/orangemaple.svg"}}",
           "width": 100,
           "height": 100
         }
@@ -118,23 +118,22 @@
   });
 </script>
 
-
-<div id="particles-js2"></div>
+<div id="particles-js-2"></div>
 <script type="text/javascript">
- particlesJS("particles-js2",{
+ particlesJS("particles-js-head",{
     "particles": {
       "number": {
-        "value": 80,
+        "value": 10,
         "density": {
           "enable": true,
           "value_area": 800
         }
       },
       "color": {
-        "value": "#eb8b23"
+        "value": "#ffffff"
       },
       "shape": {
-        "type": "circle",
+        "type": "image",
         "stroke": {
           "width": 0,
           "color": "#000000"
@@ -143,7 +142,7 @@
           "nb_sides": 5
         },
         "image": {
-          "src": "img/github.svg",
+          "src": "{{asset "images/elements/pink-leaf.svg"}}",
           "width": 100,
           "height": 100
         }
@@ -159,17 +158,17 @@
         }
       },
       "size": {
-        "value": 5,
+        "value": 100,
         "random": true,
         "anim": {
           "enable": false,
           "speed": 40,
-          "size_min": 0.1,
+          "size_min": 40,
           "sync": false
         }
       },
       "line_linked": {
-        "enable": true,
+        "enable": false,
         "distance": 150,
         "color": "#ffffff",
         "opacity": 0.4,
@@ -177,9 +176,9 @@
       },
       "move": {
         "enable": true,
-        "speed": 6,
+        "speed": 2,
         "direction": "none",
-        "random": false,
+        "random": true,
         "straight": false,
         "out_mode": "out",
         "attract": {
@@ -194,11 +193,11 @@
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "repulse"
+          "mode": "push"
         },
         "onclick": {
           "enable": true,
-          "mode": "push"
+          "mode": "repulse"
         },
         "resize": true
       },
@@ -229,7 +228,7 @@
     },
     "retina_detect": true,
     "config_demo": {
-      "hide_card": false,
+      "hide_card": true,
       "background_color": "#b61924",
       "background_image": "",
       "background_position": "50% 50%",
